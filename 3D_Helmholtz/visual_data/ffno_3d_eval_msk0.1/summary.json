@@ -1,0 +1,8 @@
+{
+  "ckpt": "ckp/ffno_3d.pt",
+  "test_h5": "helmholtz3d_dataset_msk0.1.h5",
+  "num_cases": 410,
+  "mean_rmse": 1.1469667681833593,
+  "mean_obs_rmse": 0.016865058974703636,
+  "mean_unobs_rmse": 1.2096852632557473
+}

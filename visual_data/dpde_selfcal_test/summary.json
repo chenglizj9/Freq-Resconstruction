@@ -1,0 +1,15 @@
+{
+  "method": "compare_fixed_vs_selfcal",
+  "ckpt": "ckp/dpde_baseline.pt",
+  "test_h5": "data_for_test/helmholtz_dataset_42_for_test_mask2.h5",
+  "num_cases": 153,
+  "fixed_zeta": 0.3,
+  "selfcal_lambda_dps": 0.3,
+  "selfcal_lambda_pde": 0.0,
+  "mean_rmse_fixed": 0.4272555915115316,
+  "mean_rmse_selfcal": 0.4729486455033028,
+  "improvement_pct": -10.694547923906564,
+  "mean_pde_res_fixed": 10933.149139790448,
+  "mean_pde_res_selfcal": 11039.757011789476,
+  "output_dir": "visual_data/dpde_selfcal_test"
+}

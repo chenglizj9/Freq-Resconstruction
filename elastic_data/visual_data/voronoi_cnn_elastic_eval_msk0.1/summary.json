@@ -1,0 +1,9 @@
+{
+  "ckpt": "ckp/voronoi_cnn_elastic.pt",
+  "test_h5": "elastic_dataset_msk0.1.h5",
+  "num_cases": 70,
+  "mean_rmse": 0.12051097532468183,
+  "mean_obs_rmse": 0.07919096707233361,
+  "mean_unobs_rmse": 0.12397401157234396,
+  "output_dir": "visual_data/voronoi_cnn_elastic_eval_msk0.1"
+}

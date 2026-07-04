@@ -1,0 +1,9 @@
+{
+  "out": "ckp/fno_baseline_smoke.pt",
+  "best_val_loss": 0.01029358839605917,
+  "final_train_loss": 0.023908130790699613,
+  "final_val_loss": 0.01029358839605917,
+  "epochs": 1,
+  "train_samples": 5,
+  "val_samples": 495
+}

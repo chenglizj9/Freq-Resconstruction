@@ -1,0 +1,14 @@
+{
+  "checkpoint": "ckp/ftm_omega_checkpoint.pt",
+  "data_h5": "helmholtz_dataset_42.h5",
+  "evaluated_samples": 500,
+  "global_rmse": 0.02567864563688636,
+  "rmse_freq_mean": 0.025678645610809323,
+  "rmse_freq_std": 0.00434427613834781,
+  "best_freq_idx": 0,
+  "worst_freq_idx": 10,
+  "best_freq_omega": 2.0,
+  "worst_freq_omega": 52.0,
+  "data_scale_used": 0.005469151306897402,
+  "output_dir": "visual_data/ftm_omega_eval"
+}

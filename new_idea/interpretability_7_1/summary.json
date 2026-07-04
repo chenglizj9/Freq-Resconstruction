@@ -1,0 +1,39 @@
+{
+  "core_npz": "new_idea/transport_predictor_experiment/solved_cores_all_samples.npz",
+  "data_h5": "new_idea/helmholtz_dataset_42_new_idea_mask10.h5",
+  "out_dir": "new_idea/interpretability_7_1",
+  "num_samples": 200,
+  "num_freqs": 51,
+  "core_dim": 576,
+  "train_size": 140,
+  "test_size": 60,
+  "A_ratio_stats": {
+    "amp_median_gap1": 0.9477773308753967,
+    "amp_median_gap_max": 0.07064684852957726,
+    "phase_std_gap1": 0.4128912975010705,
+    "phase_std_gap_max": 2.580809124405382
+  },
+  "B_fixed_pairs": {
+    "diag_mean_over_fixed_pairs": 0.8180095988015333,
+    "identity_mean_over_fixed_pairs": 2.6056703117489812,
+    "full_linear_mean_over_fixed_pairs": 0.9817580770124058
+  },
+  "C_gap_curve": {
+    "diag_near_gap_mean": 0.5828279965790738,
+    "identity_near_gap_mean": 1.0906401913397556,
+    "diag_far_gap_mean": 0.9989145362846664,
+    "identity_far_gap_mean": 7.620489928127189
+  },
+  "D_field_vs_latent": {
+    "latent_diag_mean": 0.9516369259804488,
+    "field_diag_mean": 0.9472870720972617,
+    "relative_improvement_mean": -0.006868960543769568,
+    "relative_improvement_median": -0.0015470680189254979,
+    "field_dim_used": 16384
+  },
+  "feasibility_indicators": {
+    "diag_vs_identity_gain_near_gap": 0.4656092804877099,
+    "diag_vs_identity_gain_far_gap": 0.8689172814732452,
+    "latent_vs_field_relative_improvement_mean": -0.006868960543769568
+  }
+}

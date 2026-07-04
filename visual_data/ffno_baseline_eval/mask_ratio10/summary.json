@@ -1,0 +1,10 @@
+{
+  "ckpt": "ckp/ffno_baseline.pt",
+  "test_h5": "data_for_test/helmholtz_dataset_42_for_test_mask10.h5",
+  "num_cases": 1020,
+  "mean_rmse": 1.4080449269098394,
+  "mean_obs_rmse": 0.05840923641899637,
+  "mean_unobs_rmse": 1.4836367153069552,
+  "mean_pde_res": 40124.151784120375,
+  "output_dir": "visual_data/ffno_baseline_eval/mask_ratio10"
+}

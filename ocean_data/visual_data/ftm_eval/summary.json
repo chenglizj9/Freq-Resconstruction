@@ -1,0 +1,26 @@
+{
+  "checkpoint": "ckp/ftm_gpu_checkpoint_fixedmedium.pt",
+  "data_h5": "ocean_dataset_fixedmedium.h5",
+  "evaluated_samples": 120,
+  "channel_names": [
+    "real",
+    "imag"
+  ],
+  "global_rmse": 1.6593050375028893,
+  "rmse_per_channel": {
+    "real": {
+      "freq_mean": 1.6767353750824971,
+      "freq_std": 0.13175049085747326,
+      "obs_mean": 0.07764130728181316,
+      "unobs_mean": 1.8730027037737247
+    },
+    "imag": {
+      "freq_mean": 1.6462615166103893,
+      "freq_std": 0.1045714867684012,
+      "obs_mean": 0.0746875401803411,
+      "unobs_mean": 1.839334642448624
+    }
+  },
+  "data_scale_used": 1.0,
+  "output_dir": "visual_data/ftm_eval"
+}

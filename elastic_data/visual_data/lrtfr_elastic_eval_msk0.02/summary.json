@@ -1,0 +1,19 @@
+{
+  "ftm_ckpt": "ckp/ftm_gpu_checkpoint.pt",
+  "test_h5": "elastic_dataset_msk0.02.h5",
+  "num_cases": 70,
+  "mean_rmse": 0.3906611859798431,
+  "mean_obs_rmse": 2.413419903952475e-07,
+  "mean_unobs_rmse": 0.3944985850784165,
+  "per_channel": {
+    "ux_real": 0.3875920844929559,
+    "ux_imag": 0.3941255062818527,
+    "uy_real": 0.3885155073234013,
+    "uy_imag": 0.4030462546007974
+  },
+  "rank_x": 48,
+  "rank_y": 48,
+  "n_basis_groups": 1,
+  "num_visualized": 20,
+  "output_dir": "visual_data/lrtfr_elastic_eval_msk0.02"
+}

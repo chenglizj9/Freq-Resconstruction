@@ -1,0 +1,10 @@
+{
+  "method": "FNO3D",
+  "ckpt": "ckp/fno3d.pt",
+  "test_h5": "helmholtz3d_dataset.h5",
+  "evaluated_samples": 500,
+  "mean_rmse": 0.051893683703823225,
+  "mean_rmse_obs": 0.049207390016979644,
+  "mean_rmse_unobs": 0.052160756129771474,
+  "output_dir": "visual_data/fno3d_eval"
+}

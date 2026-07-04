@@ -1,0 +1,14 @@
+{
+  "out": "ckp/diffusion_core_v1.pt",
+  "pairs": 5500,
+  "core_shape": [
+    2,
+    24,
+    24
+  ],
+  "norm_mode": "channel_global",
+  "latent_dim": 1152,
+  "best_loss": 0.04184924333821982,
+  "final_loss": 0.055614595068618655,
+  "epochs": 500
+}

@@ -1,0 +1,22 @@
+{
+  "diff_ckpt": "ckp/diffusion_core.pt",
+  "ftm_ckpt": "ckp/ftm_gpu_checkpoint.pt",
+  "data_h5": "data_for_test/helmholtz_dataset_42_for_test_mask2.h5",
+  "num_cases": 153,
+  "mean_rmse_orig": NaN,
+  "mean_rmse_selfcal": NaN,
+  "improvement_pct": NaN,
+  "mean_pde_res_orig": 331.4214982117756,
+  "mean_pde_res_selfcal": 1.2394185135397734e+33,
+  "params": {
+    "lambda_dps": 1.0,
+    "lambda_pde": 0.05,
+    "r_obs_ref": 0.3,
+    "r_pde_ref": 1.0,
+    "s_min": 0.1,
+    "s_max": 5.0,
+    "guidance_scale": 15.0,
+    "orig_dps_weight": 1.0,
+    "orig_phys_weight": 0.05
+  }
+}

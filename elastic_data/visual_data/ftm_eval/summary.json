@@ -1,0 +1,40 @@
+{
+  "checkpoint": "ckp/ftm_gpu_checkpoint.pt",
+  "data_h5": "elastic_dataset.h5",
+  "evaluated_samples": 3,
+  "channel_names": [
+    "ux_real",
+    "ux_imag",
+    "uy_real",
+    "uy_imag"
+  ],
+  "global_rmse": 0.014411703328646365,
+  "rmse_per_channel": {
+    "ux_real": {
+      "freq_mean": 0.012920344141936222,
+      "freq_std": 0.009887237156187789,
+      "obs_mean": 0.00802618528124491,
+      "unobs_mean": 0.01335857839651344
+    },
+    "ux_imag": {
+      "freq_mean": 0.01231118942921409,
+      "freq_std": 0.008293913311944248,
+      "obs_mean": 0.007455422515682003,
+      "unobs_mean": 0.012715610762599385
+    },
+    "uy_real": {
+      "freq_mean": 0.012270683864247733,
+      "freq_std": 0.007122680448636105,
+      "obs_mean": 0.007585226155272594,
+      "unobs_mean": 0.012646031977068187
+    },
+    "uy_imag": {
+      "freq_mean": 0.013328271501060179,
+      "freq_std": 0.008236952279419908,
+      "obs_mean": 0.007233174958153608,
+      "unobs_mean": 0.01380731658182833
+    }
+  },
+  "data_scale_used": 1.0,
+  "output_dir": "visual_data/ftm_eval"
+}

@@ -1,0 +1,19 @@
+{
+  "diff_ckpt": "ckp/diffusion_core.pt",
+  "ftm_ckpt": "ckp/ftm_gpu_checkpoint.pt",
+  "data_h5": "helmholtz_dataset_42.h5",
+  "device": "cuda",
+  "sampling_mode": "ddpm",
+  "diffusion_steps": 500,
+  "sample_steps": 500,
+  "evaluated_freq_count": 11,
+  "evaluated_sample_count": 500,
+  "num_gen_per_freq": 500,
+  "core_fid_feature_dim": 256,
+  "field_fid_feature_dim": 512,
+  "mean_core_fid": 2.3219938157126307e-05,
+  "std_core_fid": 6.988502718741074e-05,
+  "mean_field_fid": 61.31587219238281,
+  "std_field_fid": 164.7770538330078,
+  "output_dir": "visual_data/diffusion_fid_eval"
+}

@@ -1,0 +1,11 @@
+{
+  "ckpt": "ckp/fno_baseline.pt",
+  "test_h5": "data_for_test/helmholtz_dataset_42_mask5_Extra.h5",
+  "num_cases": 4000,
+  "mean_rmse": 0.9203466739571651,
+  "mean_obs_rmse": 0.1498679353025993,
+  "mean_unobs_rmse": 0.9436430076026187,
+  "mean_pde_res": 19644.092011758912,
+  "num_visualized": 50,
+  "output_dir": "visual_data/fno_baseline_eval/mask_ratio5_Extra"
+}

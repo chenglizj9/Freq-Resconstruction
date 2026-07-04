@@ -1,0 +1,25 @@
+{
+  "diff_ckpt": "ckp/diffusion_core.pt",
+  "ftm_ckpt": "ckp/ftm_gpu_checkpoint.pt",
+  "data_h5": "ocean_dataset.h5",
+  "C": 2,
+  "channel_names": [
+    "real",
+    "imag"
+  ],
+  "num_cases": 27,
+  "mean_rmse_prior": 1.0384485854042902,
+  "mean_rmse_dps": 1.0367063482602437,
+  "mean_core_rel_err_prior": 0.8034255018940678,
+  "mean_core_rel_err_dps": 0.8047306846689295,
+  "mean_pde_res_prior": NaN,
+  "mean_pde_res_dps": NaN,
+  "absolute_improvement": 0.0017422371440465323,
+  "relative_improvement_%": 0.16777307692785215,
+  "dps_weight": 50.0,
+  "phys_weight": 0.0,
+  "guidance_scale": 1.0,
+  "sample_steps": 500,
+  "data_scale": 1.0,
+  "output_dir": "visual_data/ocean_eval"
+}

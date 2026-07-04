@@ -1,0 +1,11 @@
+{
+  "out": "ckp/diffusion3d.pt",
+  "latent_dim": 5488,
+  "rx": 14,
+  "ry": 14,
+  "rz": 14,
+  "R": 2744,
+  "best_loss": 0.026675782719394192,
+  "final_loss": 0.03863865023595281,
+  "epochs": 1000
+}

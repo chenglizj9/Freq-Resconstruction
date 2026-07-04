@@ -1,0 +1,19 @@
+{
+  "checkpoint": "ckp/ftm3d.pt",
+  "data_h5": "helmholtz3d_dataset.h5",
+  "evaluated_samples": 500,
+  "global_rmse": 0.03283133292943239,
+  "rmse_per_channel": {
+    "real": {
+      "freq_mean": 0.03200106301403869,
+      "obs_mean": 0.0015248076732606193,
+      "unobs_mean": 0.03372399124147236
+    },
+    "imag": {
+      "freq_mean": 0.03199911898535441,
+      "obs_mean": 0.0015572205177056344,
+      "unobs_mean": 0.03371978632601871
+    }
+  },
+  "output_dir": "visual_data/ftm3d_eval"
+}

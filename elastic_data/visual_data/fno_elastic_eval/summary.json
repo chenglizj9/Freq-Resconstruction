@@ -1,0 +1,16 @@
+{
+  "ckpt": "ckp/fno_elastic.pt",
+  "test_h5": "elastic_dataset.h5",
+  "num_cases": 15,
+  "mean_rmse": 0.8802417655785878,
+  "mean_obs_rmse": 0.8154765978557312,
+  "mean_unobs_rmse": 0.8953327439449165,
+  "per_channel": {
+    "ux_re": 0.6630607545375824,
+    "ux_im": 0.6903631766637166,
+    "uy_re": 1.019766761859258,
+    "uy_im": 1.224543466170629
+  },
+  "num_visualized": 5,
+  "output_dir": "visual_data/fno_elastic_eval"
+}

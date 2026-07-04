@@ -1,0 +1,9 @@
+{
+  "ckpt": "ckp/dpde_elastic.pt",
+  "test_h5": "elastic_dataset_msk0.1.h5",
+  "num_cases": 70,
+  "dps_zeta": 0.3,
+  "mean_rmse": 0.15691560740981783,
+  "mean_obs_rmse": 0.13629659566379684,
+  "mean_unobs_rmse": 0.15336886399558614
+}

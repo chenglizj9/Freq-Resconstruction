@@ -1,0 +1,12 @@
+{
+  "diff_ckpt": "ckp/diffusion3d.pt",
+  "ftm_ckpt": "ckp/ftm3d.pt",
+  "data_h5": "helmholtz3d_dataset.h5",
+  "num_cases": 45,
+  "mean_rmse_prior": 1.4249056431982252,
+  "mean_rmse_dps": 0.08781472717722257,
+  "relative_improvement_percent": 93.8371549304752,
+  "dps_weight": 5.0,
+  "sample_steps": 500,
+  "output_dir": "visual_data/diffusion3d_eval"
+}

@@ -1,0 +1,9 @@
+{
+  "out": "ckp/confild_baseline.pt",
+  "best_val_loss": 5.9701165565374226e-05,
+  "final_train_loss": 6.214840963366442e-05,
+  "final_val_loss": 5.9701165565374226e-05,
+  "epochs": 200,
+  "train_samples": 400,
+  "val_samples": 100
+}

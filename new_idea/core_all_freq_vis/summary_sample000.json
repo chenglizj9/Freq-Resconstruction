@@ -1,0 +1,37 @@
+{
+  "ftm_ckpt": "ckp/ftm_gpu_checkpoint.pt",
+  "data_h5": "data_for_test/helmholtz_dataset_42_for_test_mask10.h5",
+  "sample_idx": 0,
+  "device": "cpu",
+  "num_freqs": 51,
+  "field_shape": [
+    128,
+    128,
+    2
+  ],
+  "rank_x": 24,
+  "rank_y": 24,
+  "lstsq_rcond": null,
+  "lstsq_rank_real": 576,
+  "lstsq_rank_imag": 576,
+  "rel_rmse_mean": 0.00799881741769758,
+  "rel_rmse_std": 0.0048098039115116705,
+  "rel_rmse_max": 0.021848084405064583,
+  "amp_phase_analysis": {
+    "amp_mean_over_freq_mean": 0.00015426038896525736,
+    "amp_mean_over_freq_std": 0.0001399107779544122,
+    "phase_mean_over_freq_mean": 0.9598313198224002,
+    "phase_mean_over_freq_std": 0.536674229169887,
+    "phase_concentration_mean": 0.2364365152795525,
+    "phase_concentration_min": 0.026547448709607124,
+    "phase_concentration_max": 0.8309473991394043
+  },
+  "outputs": {
+    "core_real_plot": "new_idea/core_all_freq_vis/core_real_allfreq_sample000.png",
+    "core_imag_plot": "new_idea/core_all_freq_vis/core_imag_allfreq_sample000.png",
+    "core_abs_plot": "new_idea/core_all_freq_vis/core_abs_allfreq_sample000.png",
+    "core_norm_curve": "new_idea/core_all_freq_vis/core_norm_curve_sample000.png",
+    "core_amp_phase_curve": "new_idea/core_all_freq_vis/core_amp_phase_curve_sample000.png",
+    "npz": "new_idea/core_all_freq_vis/core_lstsq_sample000.npz"
+  }
+}

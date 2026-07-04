@@ -1,0 +1,18 @@
+{
+  "out": "ckp/diffusion_core.pt",
+  "C": 2,
+  "channel_names": [
+    "real",
+    "imag"
+  ],
+  "core_shape": [
+    2,
+    48,
+    48
+  ],
+  "norm_mode": "per_channel_global",
+  "latent_dim": 4608,
+  "best_loss": 0.2769164580386132,
+  "final_loss": 0.30396651290357113,
+  "epochs": 100
+}

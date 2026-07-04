@@ -1,0 +1,9 @@
+{
+  "ckpt": "ckp/dpde_3d.pt",
+  "test_h5": "helmholtz3d_dataset_msk0.01.h5",
+  "num_cases": 410,
+  "dps_zeta": 0.3,
+  "mean_rmse": 0.7525920995851842,
+  "mean_obs_rmse": 0.30100364452455103,
+  "mean_unobs_rmse": 0.7558950924291843
+}

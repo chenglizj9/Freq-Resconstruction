@@ -1,0 +1,16 @@
+{
+  "ckpt": "ckp/confild_elastic.pt",
+  "test_h5": "elastic_dataset_msk0.02.h5",
+  "num_cases": 70,
+  "mean_rmse": 2.672864976951054,
+  "mean_obs_rmse": 2.6700567872521566,
+  "mean_unobs_rmse": 2.6729857575617353,
+  "per_channel": {
+    "ux_re": 3.441156107187271,
+    "ux_im": 2.3326332117830004,
+    "uy_re": 2.752802996976035,
+    "uy_im": 2.5253067995820726
+  },
+  "num_visualized": 20,
+  "output_dir": "visual_data/confild_elastic_eval_msk0.02"
+}

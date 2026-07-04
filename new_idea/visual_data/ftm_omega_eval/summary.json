@@ -1,0 +1,14 @@
+{
+  "checkpoint": "new_idea/ckp/ftm_omega_checkpoint.pt",
+  "data_h5": "new_idea/helmholtz_dataset_42_new_idea_mask10.h5",
+  "evaluated_samples": 200,
+  "global_rmse": 0.03269041634164751,
+  "rmse_freq_mean": 0.03269041628960301,
+  "rmse_freq_std": 0.014886415998078842,
+  "best_freq_idx": 0,
+  "worst_freq_idx": 50,
+  "best_freq_omega": 2.0,
+  "worst_freq_omega": 52.0,
+  "data_scale_used": 0.005378635600209236,
+  "output_dir": "new_idea/visual_data/ftm_omega_eval"
+}

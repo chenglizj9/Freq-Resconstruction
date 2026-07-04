@@ -1,0 +1,8 @@
+{
+  "ckpt": "ckp/ffno_elastic.pt",
+  "test_h5": "elastic_dataset_msk0.1.h5",
+  "num_cases": 70,
+  "mean_rmse": 1.0188717654773167,
+  "mean_obs_rmse": 0.9895672270229885,
+  "mean_unobs_rmse": 1.02197978581701
+}

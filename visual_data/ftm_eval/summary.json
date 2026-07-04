@@ -1,0 +1,14 @@
+{
+  "checkpoint": "ckp/ftm_gpu_checkpoint.pt",
+  "data_h5": "helmholtz_dataset_42.h5",
+  "evaluated_samples": 500,
+  "global_rmse": 0.011525915382429957,
+  "rmse_freq_mean": 0.011525915389711207,
+  "rmse_freq_std": 0.007873908933474416,
+  "best_freq_idx": 0,
+  "worst_freq_idx": 10,
+  "best_freq_omega": 2.0,
+  "worst_freq_omega": 52.0,
+  "data_scale_used": 0.005469151306897402,
+  "output_dir": "visual_data/ftm_eval"
+}

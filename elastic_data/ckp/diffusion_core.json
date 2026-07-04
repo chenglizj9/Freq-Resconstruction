@@ -1,0 +1,23 @@
+{
+  "out": "ckp/diffusion_core.pt",
+  "C": 4,
+  "channel_names": [
+    "ux_real",
+    "ux_imag",
+    "uy_real",
+    "uy_imag"
+  ],
+  "core_shape": [
+    4,
+    32,
+    32
+  ],
+  "norm_mode": "per_channel_global",
+  "latent_dim": 4096,
+  "best_train_loss": 0.039241272516193845,
+  "best_val_loss": 0.037627221260752,
+  "final_loss": 0.04285059486116682,
+  "final_val_loss": 0.04187502419664746,
+  "epochs": 500,
+  "train_ratio": 0.8
+}

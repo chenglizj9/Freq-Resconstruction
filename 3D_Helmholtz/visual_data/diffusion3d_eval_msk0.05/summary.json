@@ -1,0 +1,16 @@
+{
+  "diff_ckpt": "ckp/diffusion3d.pt",
+  "ftm_ckpt": "ckp/ftm3d.pt",
+  "data_h5": "helmholtz3d_dataset_msk0.05.h5",
+  "num_cases": 205,
+  "mean_rmse_prior": 1.1921895402233775,
+  "mean_rmse_dps": 0.14889716525993696,
+  "mean_pde_res_prior": 163041.5379668445,
+  "mean_pde_res_dps": 467144.3118902439,
+  "relative_improvement_percent": 87.51061301611165,
+  "dps_weight": 25.0,
+  "phys_weight": 0.3,
+  "guidance_scale": 1.0,
+  "sample_steps": 500,
+  "output_dir": "visual_data/diffusion3d_eval_msk0.05"
+}

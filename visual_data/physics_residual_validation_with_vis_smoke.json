@@ -1,0 +1,52 @@
+{
+  "summary": {
+    "data_h5": "helmholtz_dataset_42.h5",
+    "ftm_ckpt": "ckp/ftm_gpu_checkpoint.pt",
+    "num_cases": 3,
+    "num_visualized": 3,
+    "vis_dir": "visual_data/physics_residual_validation_cases_smoke",
+    "max_abs_diff_func_vs_direct": 9.751314083983331e-07,
+    "mean_abs_diff_func_vs_direct": 3.7731017742588985e-07,
+    "max_rel_diff_func_vs_direct": 1.194888375148356e-06,
+    "mean_rel_diff_func_vs_direct": 6.030478275732525e-07,
+    "mean_direct_true_residual": 9.181087288270778e-10,
+    "median_direct_true_residual": 7.559763807608561e-11,
+    "phys_interior_only": true,
+    "phys_scale_source_by_data": true
+  },
+  "rows": [
+    {
+      "sample_idx": 0,
+      "freq_idx": 10,
+      "omega": 52.0,
+      "residual_func": 0.30515792965888977,
+      "residual_direct_proj": 0.3051579790089783,
+      "residual_direct_true": 2.4021598860120188e-11,
+      "abs_diff_func_vs_direct": 4.935008851569833e-08,
+      "rel_diff_func_vs_direct": 1.6171980387327956e-07,
+      "vis_path": "visual_data/physics_residual_validation_cases_smoke/case001_sample000_freq010.png"
+    },
+    {
+      "sample_idx": 0,
+      "freq_idx": 0,
+      "omega": 2.0,
+      "residual_func": 0.8160848021507263,
+      "residual_direct_proj": 0.8160857772821347,
+      "residual_direct_true": 2.6547069495450276e-09,
+      "abs_diff_func_vs_direct": 9.751314083983331e-07,
+      "rel_diff_func_vs_direct": 1.194888375148356e-06,
+      "vis_path": "visual_data/physics_residual_validation_cases_smoke/case002_sample000_freq000.png"
+    },
+    {
+      "sample_idx": 0,
+      "freq_idx": 7,
+      "omega": 37.0,
+      "residual_func": 0.23743779957294464,
+      "residual_direct_proj": 0.23743790702198,
+      "residual_direct_true": 7.559763807608561e-11,
+      "abs_diff_func_vs_direct": 1.0744903536363815e-07,
+      "rel_diff_func_vs_direct": 4.5253530369812186e-07,
+      "vis_path": "visual_data/physics_residual_validation_cases_smoke/case003_sample000_freq007.png"
+    }
+  ]
+}

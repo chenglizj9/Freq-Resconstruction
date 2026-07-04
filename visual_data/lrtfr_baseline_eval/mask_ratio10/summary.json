@@ -1,0 +1,13 @@
+{
+  "ftm_ckpt": "ckp/ftm_gpu_checkpoint.pt",
+  "test_h5": "data_for_test/helmholtz_dataset_42_for_test_mask10.h5",
+  "num_cases": 255,
+  "mean_rmse": 0.01106158248990325,
+  "mean_obs_rmse": 0.006440916432130635,
+  "mean_unobs_rmse": 0.011461504678838332,
+  "mean_pde_res": 315.8918128859167,
+  "num_visualized": 50,
+  "output_dir": "visual_data/lrtfr_baseline_eval/mask_ratio10",
+  "rank_x": 24,
+  "rank_y": 24
+}

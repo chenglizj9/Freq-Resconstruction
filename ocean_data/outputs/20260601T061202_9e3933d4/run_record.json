@@ -1,0 +1,74 @@
+{
+  "run_id": "9e3933d4",
+  "timestamp": "2026-06-01T06:12:02.969532",
+  "task": {
+    "task_id": "9e3933d4",
+    "task_type": "transmission_loss",
+    "frequency_hz": 150.0,
+    "source_depth_m": 10.0,
+    "receiver_depth_m": 30.0,
+    "receiver_range_m": 5000.0,
+    "environment": {
+      "water_depth_m": 100.0,
+      "bathymetry": null,
+      "ssp": {
+        "points": [
+          {
+            "depth_m": 0.0,
+            "speed_mps": 1500.0
+          }
+        ],
+        "grid": null,
+        "interpolation": "linear"
+      },
+      "seabed": {
+        "kind": "rigid",
+        "speed_mps": null,
+        "density_kgm3": null,
+        "attenuation_dbperlambda": null
+      },
+      "surface": "pressure_release",
+      "metadata": {}
+    },
+    "backend_name": "julia",
+    "model_name": "bellhop",
+    "output_requests": [
+      "pressure_field"
+    ],
+    "receiver_grid": {
+      "range_start_m": 50.0,
+      "range_end_m": 5000.0,
+      "range_steps": 24,
+      "depth_start_m": 1.0,
+      "depth_end_m": 110.28314427850376,
+      "depth_steps": 20
+    },
+    "num_rays": 20,
+    "runtime_options": {},
+    "label": "",
+    "metadata": {}
+  },
+  "result": {
+    "status": "failed",
+    "backend_name": "julia",
+    "model_name": "bellhop",
+    "transmission_loss_db": null,
+    "tl_profile": null,
+    "tl_field": null,
+    "complex_field": null,
+    "case_dir": "outputs/20260601T061202_9e3933d4",
+    "artifacts": {},
+    "plots": [],
+    "logs": [],
+    "warnings": [],
+    "error_message": "\u914d\u7f6e\u9519\u8bef\uff1aAcousticsToolbox models (bellhop/kraken) require a fluid or elastic seabed. Got 'rigid'. Use 'sandy_clay', 'sand', 'rock', or 'fluid'.",
+    "duration_s": null,
+    "metadata": {}
+  },
+  "environment_info": {
+    "python": "3.11.15 (main, Mar 11 2026, 17:20:07) [GCC 14.3.0]",
+    "platform": "linux",
+    "juliacall": "0.9.34",
+    "pydantic": "2.13.4"
+  }
+}

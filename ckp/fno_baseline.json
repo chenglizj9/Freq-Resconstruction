@@ -1,0 +1,9 @@
+{
+  "out": "ckp/fno_baseline.pt",
+  "best_val_loss": 1.2810144838691816e-05,
+  "final_train_loss": 4.323276349499462e-06,
+  "final_val_loss": 1.3048869533866474e-05,
+  "epochs": 200,
+  "train_samples": 400,
+  "val_samples": 100
+}

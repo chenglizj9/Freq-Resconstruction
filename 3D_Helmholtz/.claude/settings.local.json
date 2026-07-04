@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rg --files -g 'AGENTS.md' -g '*.py' -g '*.ipynb' -g '*.m' -g '*.jl' -g '*.md' .)",
+      "Bash(python *)"
+    ]
+  }
+}

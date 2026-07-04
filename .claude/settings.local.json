@@ -1,0 +1,41 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -lh /home/clh/coderepo/Freq_Reconstruction/*.py)",
+      "Bash(grep:*)",
+      "Bash(wc -l /home/clh/coderepo/Freq_Reconstruction/*.py)",
+      "Bash(python3 -c \"import h5py; f=h5py.File\\('/home/clh/coderepo/Freq_Reconstruction/elastic_data/elastic_dataset.h5','r'\\); print\\(list\\(f.keys\\(\\)\\)\\); print\\('mask shape:', f['mask_tr'].shape\\); print\\('data shape:', f['data'].shape\\)\")",
+      "Bash(python3 -c ':*)",
+      "Bash(python3:*)",
+      "Bash(echo \"PID: $!\")",
+      "Read(//home/clh/coderepo/Freq_Reconstruction/elastic_data/**)",
+      "Bash(jobs -l)",
+      "Read(//home/clh/.juliaup/bin/**)",
+      "Bash(python -c \"import juliacall\")",
+      "Bash(conda env *)",
+      "Bash(ls ~/miniconda3/envs ~/anaconda3/envs)",
+      "Bash(cat .env)",
+      "Bash(pip install *)",
+      "Bash(python -c \"import torch, h5py, scipy; print\\('torch', torch.__version__, 'cuda', torch.cuda.is_available\\(\\)\\)\")",
+      "Bash(~/anaconda3/envs/ACM-FD/bin/python -c ' *)",
+      "Bash(~/anaconda3/envs/ACM-FD/bin/python Visualize_dataset.py --data_h5 ocean_dataset.h5 --n_show 5)",
+      "Bash(~/anaconda3/envs/ACM-FD/bin/python Visualize_dataset.py --data_h5 ocean_dataset.h5 --n_show 5 --sweep_sample 2)",
+      "Bash(~/anaconda3/envs/ACM-FD/bin/python -)",
+      "WebSearch",
+      "Bash(echo \"exit=$?\")",
+      "Bash(python -m py_compile train_diffusion.py)",
+      "Bash(python -m py_compile test_FTM.py)",
+      "Bash(python -m py_compile lrtfr_baseline.py)",
+      "Bash(python -m py_compile fno_baseline.py)",
+      "Bash(python -m py_compile test_diffusion.py)",
+      "Bash(python -m py_compile confild_baseline.py)",
+      "Bash(python *)",
+      "mcp__ide__getDiagnostics",
+      "Bash(rg --files \"/home/clh/coderepo/Freq_Reconstruction/elastic_data\")",
+      "Bash(rg --files \"/home/clh/coderepo/Freq_Reconstruction\")",
+      "Bash(rg \"elastic_eval_msk0\\\\.1|ftm_omega|diffusion_omega|visual_data|png$|jpg$|jpeg$\")",
+      "Bash(rg \"elastic_eval_msk0\\\\.1/.+\\\\.\\(png|jpg|jpeg\\)$|ftm_omega_eval/.+\\\\.\\(png|jpg|jpeg\\)$|diffusion_omega_eval/.+\\\\.\\(png|jpg|jpeg\\)$|new_idea/.+\\\\.\\(png|jpg|jpeg\\)$\")",
+      "Bash(rg \"elastic_eval_msk0\\\\.1/.+\\\\.\\(png|jpg|jpeg\\)$|elastic_eval_msk0_1/.+\\\\.\\(png|jpg|jpeg\\)$|elastic.*msk0\\\\.1.+\\\\.\\(png|jpg|jpeg\\)$\")"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "core_npz": "local_transport_gap/solved_cores_all_samples.npz",
+  "ftm_ckpt": "../ckp/ftm_gpu_checkpoint.pt",
+  "data_h5": "helmholtz_dataset_42_new_idea_mask10.h5",
+  "device": "cuda",
+  "num_samples": 200,
+  "num_freqs": 51,
+  "core_dim": 576,
+  "rank_x": 24,
+  "rank_y": 24,
+  "max_delta_omega": 1.0,
+  "transport_mode": "exp_alpha",
+  "train_pairs": 7000,
+  "test_pairs": 3000,
+  "train_triplets": 0,
+  "mean_rel_err_predictor": 0.28443575790772835,
+  "mean_rel_err_identity": 0.45726715290546416,
+  "mean_amp_rel_err": 0.07691335951474805,
+  "mean_phase_mae": 0.2773122998389105,
+  "demo_case": {
+    "sample_idx": 1,
+    "freq_ref": 0,
+    "freq_tar": 1,
+    "omega_ref": 2.0,
+    "omega_tar": 3.0,
+    "delta_omega": 1.0,
+    "demo_rel_err": 0.23476086556911469
+  },
+  "outputs": {
+    "checkpoint": "local_transport_gap/transport_predictor_local.pt",
+    "pair_metrics_csv": "local_transport_gap/test_pair_metrics_local.csv",
+    "training_curve": "local_transport_gap/training_curve_local.png",
+    "error_vs_delta": "local_transport_gap/error_vs_delta_local.png",
+    "demo_plot": "local_transport_gap/demo_case_compare_local.png"
+  }
+}

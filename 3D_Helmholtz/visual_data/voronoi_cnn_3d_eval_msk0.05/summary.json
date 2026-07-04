@@ -1,0 +1,8 @@
+{
+  "ckpt": "ckp/voronoi_cnn_3d.pt",
+  "test_h5": "helmholtz3d_dataset_msk0.05.h5",
+  "num_cases": 410,
+  "mean_rmse": 0.16139432829691142,
+  "mean_obs_rmse": 0.0793167222654674,
+  "mean_unobs_rmse": 0.16459665927218228
+}

@@ -1,0 +1,20 @@
+{
+  "out": "ckp/diffusion_core_obstacle.pt",
+  "C": 4,
+  "channel_names": [
+    "ux_real",
+    "ux_imag",
+    "uy_real",
+    "uy_imag"
+  ],
+  "core_shape": [
+    4,
+    48,
+    48
+  ],
+  "norm_mode": "per_channel_global",
+  "latent_dim": 9216,
+  "best_loss": 0.07207206944935024,
+  "final_loss": 0.08461427018046379,
+  "epochs": 1000
+}

@@ -1,0 +1,9 @@
+{
+  "out": "ckp/confild_baseline_smoke.pt",
+  "best_val_loss": 0.5303425942132843,
+  "final_train_loss": 0.8128601507707076,
+  "final_val_loss": 0.5303425942132843,
+  "epochs": 1,
+  "train_samples": 5,
+  "val_samples": 495
+}

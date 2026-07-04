@@ -1,0 +1,47 @@
+{
+  "task_id": "7e2df502",
+  "task_type": "transmission_loss",
+  "frequency_hz": 150.0,
+  "source_depth_m": 10.0,
+  "receiver_depth_m": 30.0,
+  "receiver_range_m": 5000.0,
+  "environment": {
+    "water_depth_m": 100.0,
+    "bathymetry": null,
+    "ssp": {
+      "points": [
+        {
+          "depth_m": 0.0,
+          "speed_mps": 1500.0
+        }
+      ],
+      "grid": null,
+      "interpolation": "linear"
+    },
+    "seabed": {
+      "kind": "rigid",
+      "speed_mps": null,
+      "density_kgm3": null,
+      "attenuation_dbperlambda": null
+    },
+    "surface": "pressure_release",
+    "metadata": {}
+  },
+  "backend_name": "julia",
+  "model_name": "bellhop",
+  "output_requests": [
+    "pressure_field"
+  ],
+  "receiver_grid": {
+    "range_start_m": 50.0,
+    "range_end_m": 5000.0,
+    "range_steps": 24,
+    "depth_start_m": 1.0,
+    "depth_end_m": 110.28314427850376,
+    "depth_steps": 20
+  },
+  "num_rays": 20,
+  "runtime_options": {},
+  "label": "",
+  "metadata": {}
+}

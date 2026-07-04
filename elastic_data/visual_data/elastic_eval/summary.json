@@ -1,0 +1,27 @@
+{
+  "diff_ckpt": "ckp/diffusion_core_obstacle.pt",
+  "ftm_ckpt": "ckp/ftm_gpu_checkpoint_obstacle.pt",
+  "data_h5": "elastic_dataset.h5",
+  "C": 4,
+  "channel_names": [
+    "ux_real",
+    "ux_imag",
+    "uy_real",
+    "uy_imag"
+  ],
+  "num_cases": 21,
+  "mean_rmse_prior": 2.14133643252509,
+  "mean_rmse_dps": 0.17655009421564283,
+  "mean_core_rel_err_prior": 0.9647951126098633,
+  "mean_core_rel_err_dps": 0.943065555322738,
+  "mean_pde_res_prior": 2.230435592905244,
+  "mean_pde_res_dps": 1.6070141579449766,
+  "absolute_improvement": 1.964786338309447,
+  "relative_improvement_%": 91.75514451937603,
+  "dps_weight": 50.0,
+  "phys_weight": 0.02,
+  "guidance_scale": 1.0,
+  "sample_steps": 500,
+  "data_scale": 1.0,
+  "output_dir": "visual_data/elastic_eval"
+}

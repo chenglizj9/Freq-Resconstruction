@@ -1,0 +1,13 @@
+# 模型权重、数据集文件
+*.pt
+*.npy
+*.h5
+
+# 可选补充：如果还有其他大文件也加上
+*.pth
+*.ckpt
+*.npz
+*.hdf5
+*.pdf
+*.png
+/ocean-acoustic-agent/

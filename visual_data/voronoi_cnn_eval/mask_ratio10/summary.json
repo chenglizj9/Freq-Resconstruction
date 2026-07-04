@@ -1,0 +1,10 @@
+{
+  "ckpt": "ckp/voronoi_cnn.pt",
+  "test_h5": "data_for_test/helmholtz_dataset_42_for_test_mask10.h5",
+  "num_cases": 1020,
+  "mean_rmse": 0.11631896401225936,
+  "mean_obs_rmse": 0.06322176950600217,
+  "mean_unobs_rmse": 0.12073751781866246,
+  "mean_pde_res": 1308.6972568614071,
+  "output_dir": "visual_data/voronoi_cnn_eval/mask_ratio10"
+}
